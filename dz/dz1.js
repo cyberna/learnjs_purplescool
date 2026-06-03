@@ -4,13 +4,13 @@ const number = Number(message1); //Преобразуем в число для �
 switch(number) {
     case 22:
     case -8:
-        console.log(`Вы не робот! Ответ ${message1} правильный`);
+        alert(`Вы не робот! Ответ ${message1} правильный`);
         break;
     default:
         if(message1 === "Я не робот") {
-            console.log(`Ваш ответ "${message1}" Успех! Вы не робот!`);
+            alert(`Ваш ответ "${message1}" Успех! Вы не робот!`);
         } else {
-            console.log(`Ответ "${message1}" не правильный, вы робот!`);
+            alert(`Ответ "${message1}" не правильный, вы робот!`);
         }
 }
 
