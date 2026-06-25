@@ -23,10 +23,10 @@
 // const filename = isAdmin && 'file.mp4';
 // console.log(filename);
 
-let isAdmin = 0;
-let realB = isAdmin || false;
-console.log(realB);
+// let isAdmin = 0;
+// let realB = isAdmin || false;
+// console.log(realB);
 
 
-let realB2 = isAdmin ?? false;
-console.log(realB2);
+// let realB2 = isAdmin ?? false;
+// console.log(realB2);
