@@ -30,32 +30,4 @@
 
 // console.log(getExchangePrice(1, 2, 10));
 
-const age = 24;
-const job = true;
-const money = true;
 
-const macBookPriceInUSD = 2000;
-
-const moneyKreditInUSD_500 = 500;
-const moneyKreditInUSD_100 = 100;
-const moneyKreditInUSD_0 = 0;
-
-function ageVerification(age) {
-    if(age >= 24) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
-function moneyVirification(money) {
-    console.log("Доделать функцию");
-}
-
-function canBuyMacBook(age, job, money) {
-    if(age >= 24 && job == true && money >= 500) {
-        return true;
-    } else {
-        return false;
-    }
-}
